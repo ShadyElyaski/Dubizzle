@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9600BEB3187B618000EFD991 /* StyledPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9600BEB2187B618000EFD991 /* StyledPageControl.m */; };
 		9640FAB518785AA400A2DD6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9640FAB418785AA400A2DD6C /* Foundation.framework */; };
 		9640FAB718785AA400A2DD6C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9640FAB618785AA400A2DD6C /* CoreGraphics.framework */; };
 		9640FAB918785AA400A2DD6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9640FAB818785AA400A2DD6C /* UIKit.framework */; };
@@ -21,6 +22,10 @@
 		9640FAD618785AA400A2DD6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9640FAB818785AA400A2DD6C /* UIKit.framework */; };
 		9640FADE18785AA400A2DD6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9640FADC18785AA400A2DD6C /* InfoPlist.strings */; };
 		9640FAE018785AA400A2DD6C /* DubizzleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9640FADF18785AA400A2DD6C /* DubizzleTests.m */; };
+		9640FAF818785B0700A2DD6C /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9640FAEB18785B0600A2DD6C /* InfoViewController.m */; };
+		9640FAF918785B0700A2DD6C /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9640FAEC18785B0600A2DD6C /* InfoViewController.xib */; };
+		9640FAFA18785B0700A2DD6C /* Tutorial_1_View.m in Sources */ = {isa = PBXBuildFile; fileRef = 9640FAEE18785B0600A2DD6C /* Tutorial_1_View.m */; };
+		9640FAFC18785B0700A2DD6C /* Tutorial_Dynamic_View.m in Sources */ = {isa = PBXBuildFile; fileRef = 9640FAF218785B0600A2DD6C /* Tutorial_Dynamic_View.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9600BEB1187B618000EFD991 /* StyledPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyledPageControl.h; sourceTree = "<group>"; };
+		9600BEB2187B618000EFD991 /* StyledPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyledPageControl.m; sourceTree = "<group>"; };
 		9640FAB118785AA400A2DD6C /* Dubizzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dubizzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9640FAB418785AA400A2DD6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9640FAB618785AA400A2DD6C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +60,13 @@
 		9640FADB18785AA400A2DD6C /* DubizzleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DubizzleTests-Info.plist"; sourceTree = "<group>"; };
 		9640FADD18785AA400A2DD6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9640FADF18785AA400A2DD6C /* DubizzleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DubizzleTests.m; sourceTree = "<group>"; };
+		9640FAEA18785B0600A2DD6C /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		9640FAEB18785B0600A2DD6C /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		9640FAEC18785B0600A2DD6C /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+		9640FAED18785B0600A2DD6C /* Tutorial_1_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tutorial_1_View.h; sourceTree = "<group>"; };
+		9640FAEE18785B0600A2DD6C /* Tutorial_1_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tutorial_1_View.m; sourceTree = "<group>"; };
+		9640FAF118785B0600A2DD6C /* Tutorial_Dynamic_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tutorial_Dynamic_View.h; sourceTree = "<group>"; };
+		9640FAF218785B0600A2DD6C /* Tutorial_Dynamic_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tutorial_Dynamic_View.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +126,9 @@
 		9640FABA18785AA400A2DD6C /* Dubizzle */ = {
 			isa = PBXGroup;
 			children = (
+				9600BEB1187B618000EFD991 /* StyledPageControl.h */,
+				9600BEB2187B618000EFD991 /* StyledPageControl.m */,
+				9640FAE918785AEA00A2DD6C /* Tutorial Manager */,
 				9640FAC318785AA400A2DD6C /* SEAppDelegate.h */,
 				9640FAC418785AA400A2DD6C /* SEAppDelegate.m */,
 				9640FAC618785AA400A2DD6C /* Main.storyboard */,
@@ -150,6 +167,20 @@
 				9640FADC18785AA400A2DD6C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9640FAE918785AEA00A2DD6C /* Tutorial Manager */ = {
+			isa = PBXGroup;
+			children = (
+				9640FAEA18785B0600A2DD6C /* InfoViewController.h */,
+				9640FAEB18785B0600A2DD6C /* InfoViewController.m */,
+				9640FAEC18785B0600A2DD6C /* InfoViewController.xib */,
+				9640FAED18785B0600A2DD6C /* Tutorial_1_View.h */,
+				9640FAEE18785B0600A2DD6C /* Tutorial_1_View.m */,
+				9640FAF118785B0600A2DD6C /* Tutorial_Dynamic_View.h */,
+				9640FAF218785B0600A2DD6C /* Tutorial_Dynamic_View.m */,
+			);
+			name = "Tutorial Manager";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +231,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Shady A. Elyaski";
 				TargetAttributes = {
+					9640FAB018785AA400A2DD6C = {
+						DevelopmentTeam = X5CM273426;
+					};
 					9640FAD118785AA400A2DD6C = {
 						TestTargetID = 9640FAB018785AA400A2DD6C;
 					};
@@ -231,6 +265,7 @@
 			files = (
 				9640FACD18785AA400A2DD6C /* Images.xcassets in Resources */,
 				9640FABF18785AA400A2DD6C /* InfoPlist.strings in Resources */,
+				9640FAF918785B0700A2DD6C /* InfoViewController.xib in Resources */,
 				9640FAC818785AA400A2DD6C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,9 +285,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9640FAFC18785B0700A2DD6C /* Tutorial_Dynamic_View.m in Sources */,
+				9640FAFA18785B0700A2DD6C /* Tutorial_1_View.m in Sources */,
 				9640FAC518785AA400A2DD6C /* SEAppDelegate.m in Sources */,
 				9640FACB18785AA400A2DD6C /* SEViewController.m in Sources */,
+				9640FAF818785B0700A2DD6C /* InfoViewController.m in Sources */,
 				9640FAC118785AA400A2DD6C /* main.m in Sources */,
+				9600BEB3187B618000EFD991 /* StyledPageControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,10 +418,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shady Elyaski (BK9MF92CN7)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dubizzle/Dubizzle-Prefix.pch";
 				INFOPLIST_FILE = "Dubizzle/Dubizzle-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "CA120847-B1BB-42EE-B760-0E0C1FEB64B9";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,10 +434,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shady Elyaski (BK9MF92CN7)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dubizzle/Dubizzle-Prefix.pch";
 				INFOPLIST_FILE = "Dubizzle/Dubizzle-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "CA120847-B1BB-42EE-B760-0E0C1FEB64B9";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -461,6 +506,7 @@
 				9640FAE518785AA500A2DD6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9640FAE618785AA500A2DD6C /* Build configuration list for PBXNativeTarget "DubizzleTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +515,7 @@
 				9640FAE818785AA500A2DD6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

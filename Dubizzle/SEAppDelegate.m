@@ -1,8 +1,7 @@
 //
 //  SEAppDelegate.m
-//  Dubizzle
 //
-//  Created by Shady A. Elyaski on 1/4/14.
+//  Created by Shady A. Elyaski.
 //  Copyright (c) 2014 Shady A. Elyaski. All rights reserved.
 //
 
